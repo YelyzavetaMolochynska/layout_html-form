@@ -1,1 +1,7 @@
-/* styles go here */
+input {
+  margin: 5px;
+}
+
+.group {
+  margin: 10px;
+}
