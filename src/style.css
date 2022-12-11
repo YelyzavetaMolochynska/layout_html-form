@@ -1,7 +1,11 @@
-input {
-  margin: 5px;
+.input {
+  margin: 0 0 10px;
 }
 
 .group {
-  margin: 10px;
+  margin-bottom: 20px;
+}
+
+.lastinput {
+  margin: 10px 0 0;
 }
