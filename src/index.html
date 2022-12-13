@@ -15,87 +15,72 @@
     <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="post">
       <fieldset class="group">
         <legend>Personal information</legend>
-        <div>
-          <label>
-            Surname:
-            <input
-              class="input"
-              type="text"
-              name="surname"
-              autocomplete="off"
-            >
-          </label>
-        </div>
-        <div>
-          <label>
-            Name:
-            <input
-              class="input"
-              type="text"
-              id="name"
-              name="name"
-              autocomplete="off"
-              required
-            >
-          </label>
-        </div>
-        <div class="input">
-          <label>
-            How old are You?
-            <input type="number"
-              name="age"
-              min="1" max="100"
-              value="12"
-            >
-          </label>
-        </div>
-        <div class="input">
-          <label>
-            Full date of birth:
-            <input
-              type="date"
-              name="birthday"
-            >
-          </label>
-        </div>
-        <div class="input lastinput">
-          <label>
-            I accept the term of the agreement
-            <input
-              type="checkbox"
-              name="agree"
-            >
-          </label>
-        </div>
+        <label class="input">
+          Surname:
+          <input
+            type="text"
+            name="surname"
+            autocomplete="off"
+          >
+        </label>
+        <label class="input">
+          Name:
+          <input
+            type="text"
+            id="name"
+            name="name"
+            autocomplete="off"
+            required
+          >
+        </label>
+        <label class="input">
+          How old are You?
+          <input type="number"
+            name="age"
+            min="1"
+            max="100"
+            value="12"
+          >
+        </label>
+        <label class="input">
+          Full date of birth:
+          <input
+            type="date"
+            name="birthday"
+          >
+        </label>
+        <label class="input lastinput">
+          I accept the term of the agreement
+          <input
+            type="checkbox"
+            name="agree"
+          >
+        </label>
       </fieldset>
       <fieldset class="group">
         <legend>Registration</legend>
-        <div class="input">
-          <label>
-            E-mail:
-            <input
-              type="email"
-              name="email"
-              placeholder="email@example.com"
-              required
-            >
-          </label>
-        </div>
-        <div class="input lastinput">
-          <label>
-            Password:
-            <input
-              type="password"
-              name="password"
-              minlength="6"
-            >
-          </label>
-        </div>
+        <label class="input">
+          E-mail:
+          <input
+            type="email"
+            name="email"
+            placeholder="email@example.com"
+            required
+          >
+        </label>
+        <label class="input lastinput">
+          Password:
+          <input
+            type="password"
+            name="password"
+            minlength="6"
+          >
+        </label>
       </fieldset>
       <fieldset class="group">
         <legend>An interesting fact about you!</legend>
         <div class="input">
-          <label>Do you love cats?</label>
+          Do you love cats?
           <label>
             <input
               type="radio"
@@ -103,7 +88,7 @@
             >
             Yes
           </label>
-          <label for="no">
+          <label>
             <input
               type="radio"
               name="no"
@@ -111,23 +96,19 @@
             No
           </label>
         </div>
-        <div class="input">
-          <label>
-            What is your favorite color?
-            <input
-              type="color"
-              name="favcolor"
-            >
-          </label>
-        </div>
-        <div class="input">
-          <label>
-            What time do you go to bed?
-            <input
-              type="time"
-            >
-          </label>
-        </div>
+        <label class="input">
+          What is your favorite color?
+          <input
+            type="color"
+            name="favcolor"
+          >
+        </label>
+        <label class="input">
+          What time do you go to bed?
+          <input
+            type="time"
+          >
+        </label>
         <div class="input">
           <label>
             What are your favorite brand of cars?
@@ -142,16 +123,14 @@
             </select>
           </label>
         </div>
-        <div class="input lastinput">
-          <label>
-            How do you rate our work?
-            <input
-              type="range"
-              name="rating"
-              value="0"
-            >
-          </label>
-        </div>
+        <label class="input lastinput">
+          How do you rate our work?
+          <input
+            type="range"
+            name="rating"
+            value="0"
+          >
+        </label>
       </fieldset>
       <fieldset class="group">
         <legend>Additional info:</legend>
@@ -167,22 +146,20 @@
             </textarea>
           </label>
         </div>
-        <div class="input lastinput">
-          <label>
-            Would you recommend us?
-            <select
-              name="recommend"
-            >
-              <option value="yes">yes</option>
-              <option value="no">no</option>
-            </select>
-          </label>
-        </div>
+        <label class="input lastinput">
+          Would you recommend us?
+          <select
+            name="recommend"
+          >
+            <option value="yes">yes</option>
+            <option value="no">no</option>
+          </select>
+        </label>
       </fieldset>
-      <input
+      <button
         type="submit"
-        name="submit"
-      >
+      >Submit
+      </button>
     </form>
   </body>
 </html>
