@@ -1,0 +1,1 @@
+{"version":3,"sources":["style.css"],"names":[],"mappings":"AAAA,OACE,eAAgB,CAChB,iBACF,CAEA,OACE,kBACF,CAEA,WACE,QACF","file":"style.04fe0add.css","sourceRoot":"../src","sourcesContent":[".input {\n  margin: 0 0 10px;\n  display: flow-root;\n}\n\n.group {\n  margin-bottom: 20px;\n}\n\n.lastinput {\n  margin: 0;\n}\n"]}
